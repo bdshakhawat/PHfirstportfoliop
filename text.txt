@@ -1,1 +1,2 @@
-Practicing push and pull from git hub
+Practicing push to the remote repo
+Trying to pull this information into my local 
