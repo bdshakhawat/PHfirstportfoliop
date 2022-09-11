@@ -1,2 +1,3 @@
 Practicing push to the remote repo
 Trying to pull this information into my local 
+Changed information for creating Branch and merge it with the main
