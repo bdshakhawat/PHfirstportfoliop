@@ -1,118 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:ital@1&family=Poppins&family=Raleway:ital,wght@0,700;1,400&family=Roboto:wght@400;700&display=swap');
+.header-area{
+    /* margin-bottom: 20px; */
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+} 
 body{
 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
-h1{
-    font-size: 50px;
-}
-h2{
+/* Header area css start */
+/* .header-area .container{
+    padding-left: 100px;
+} */
+ .header-area .row{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    padding: 42px 0;
+    padding-right: 100px;
+     
+     }
+     
+    .header-area .half-width h1{
+        font-size: 50px;
+        border-left: 4px solid rgb(255, 0, 179);
+        
+    }
+    .header-area .half-width h3{
+        margin-top: 50px;
+        /* font-family: sans-serif; */
+        font-weight: 400;
+        font-size: 17px;
+    }
+    
+    .header-area .half-width{
+        width: 60%;
+    }
+    .header-area .second-half-width{
+        width:40%;
+        margin-left: 150px;
+    }
+    .header-area .half-width span {
+        margin-left: 20px;
+
+    }
+    /* Header area css Ends */
+
+
+    /* Mission area Css Starts */
+    .my-mission{
+        margin-bottom: 150px;
+    }
+    .my-mission span{
+        color: rgb(255, 0, 179);
+        margin-left: 10px;
+    }
+    .my-mission h2{
+        text-align: center;
+        font-weight: 800;
+        font-size: 50px;
+        /* color: aliceblue; */
+    }
+    .my-mission .row{
+        display: flex;
+        justify-content: space-between;
+             
+
+    }
+    .mission{
+        width: 28%;
+        text-align: left;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        margin-top: 20px;
+        /* font-size: 0; */
+        background-color: #EDF5F6;
+        
+        border-radius: 30px;
+        padding: 20px 20px ;
+    }
+    .mission img{
+        width: 140px;
+        height: 140px;
+        padding-top: 20px ;
+        padding-left: 30px;
+
+        
+    }
+    
+    .vission img{
+        width: 140px;
+        height: 140px;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    .goal img{
+        width: 140px;
+        height: 140px;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    .vission{
+        width: 28%;
+        text-align: left;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        margin-top: 20px;
+        /* font-size: 0; */
+        background-color: #FFEEEE;
+        border-radius: 30px;
+        padding: 20px 20px ;
+    }
+    
+    .goal{
+        width: 28%;
+        text-align: left;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        margin-top: 20px;
+        /* font-size: 0; */
+        background-color: #FFF4D6;
+        border-radius: 30px;
+        padding: 20px 20px ;
+    }
+    
+    
+
+    /* Mission area Css Ends */
+
+
+    
+    
+    /* Development area Css Start */
+    .development{
+        margin-bottom: 100px;
+    }
+    
+    
+
+    .development .row{
+         
+        display: flex;
+        justify-content: space-between;
+    }
+    .section-image{
+        
+        width:50% ;
+    }
+    .section-text{
+        width:50% ;
+    }
+    .button{
+        padding-top: 30px;
+    }
+
+
+
+     /* Development area Css Ends */
+
+
+     /* Know community Css Starts */
+     .know-our-team{
+        margin-bottom: 100px;
+     }
+     .know-our-team .row{
+        display: flex;
+        justify-content: space-between;
+     }
+     .know-text{
+        width: 50%;
+          
+
+    }
+   
+
+/* Know community Css Ends */
+
+
+
+/* Bonus Section Css Starts */
+
+
+
+
+
+/* Bonus Section Css Ends */
+
+    /* Middle area css Start */
+    .bonus-area{
+        margin-bottom: 100px;
+        margin-top: 0;
+    }
+.bonus-area .row{
+        display: flex;
+        justify-content: space-between;
+        /* flex-wrap: wrap; */
+        /* padding: 42px 0; */
+        /* padding-right: 100px; */
+        align-items: center;
+        row-gap: 50px;
+        column-gap: 200px;
+        
+        
+         
+         }
+
+ h1{
     font-size: 40px;
 }
-.color-highlight{
+ /* h2{
+    font-size: 30px;
+} */
+ .orange-highlight{
     color:orange ;
-}
-.half-width{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-    
-}
-.half-width img{
-    width: 100%;
-}
-.header-area{
-    background-image: url("images/personal-website/header-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
-}
-section{
-    height: 500px;
-   padding-bottom: 450px;
-
 }
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon,tomato);
-    padding: 10px 20px;
+    padding: 15px 40px;
     border-radius: 10px;
     color: white;
     font-weight: 800;
+    margin-top: 20px;
+   
 
-}
-h2{
-    font-size: 40px;
-}
-p{
-    color: lightgrey;
-}
-.middle-area{
-    background-image: url("images/personal-website/biography-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
-}
-.initial-experience{
-    box-shadow: 10px 10px 40px gray ;
-    border-radius: 10px;
-    height: 90%;
-    background-color: white;
-}
-.expertness-area{
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
-}
-#expert-dev{
-    border-left: 7px solid;
-    border-image: linear-gradient( 180deg, lightsalmon,tomato) ;
-    border-image-slice: 1;
-}
-#learner-dev{
-    border-left: 7px solid;
-    border-image: linear-gradient(  180deg, blue,cyan) ;
-    border-image-slice: 1;
-}
-.latest-work{
-    background-image: url("images/personal-website/latest-work-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
-}
-.latest-work h2{
-    text-align: center;
-    font-weight: 900;
-    
-}
-.one-third{
-    width: 25%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-}
-.one-third img{
-    width: 100%;
-}
-.client-area{
-    background-image: url("images/personal-website/footer-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
-}
-.text-area{
-    text-align: center;
-}
-.box-area{
-    text-align: center;
-    background-color: palevioletred;
-    width: 80%;
-    margin-left: 200px;
-    padding: 50px 0px;
-    border-radius: 10px;
-    
-}
+} 
+
+/* Middle area css Ends */
 
 
-footer p{
+
+
+
+/* Footer css starts */
+footer {
     text-align: center;
     font-size: 15px;
+    font-style: italic;
+    background-color: black;
+    color: #FFEEEE;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    /* margin-bottom: 50px; */
+} 
+.footer-area span{
+    color:orange ;
 }
-/* Button css */
+
